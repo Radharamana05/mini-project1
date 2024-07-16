@@ -65,3 +65,47 @@ def play_game():
             if chance=="game over":
                 break
 play_game()
+
+
+
+
+# output:
+
+
+PLAYER1 CHOICE EITHER (X OR O): x
+player1:x,player2:o
+  |  | 
+--------
+  |  | 
+--------
+  |  | 
+enter the coordinates: 0 0
+x |  | 
+--------
+  |  | 
+--------
+  |  | 
+enter the coordinates: 0 2
+x |  |o
+--------
+  |  | 
+--------
+  |  | 
+enter the coordinates: 1 1
+x |  |o
+--------
+  |x | 
+--------
+  |  | 
+enter the coordinates: 1 2
+x |  |o
+--------
+  |x |o
+--------
+  |  | 
+enter the coordinates: 2 2
+player1 wins
+
+
+
+
